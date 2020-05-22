@@ -1,15 +1,121 @@
-.iconcolor{
-    color: #fbe201;
-}
-.maincolor{
-    color: #e1251a;
-}
 
-.graycolor{
-    color: #514c4c;
-}
 :root {
     --mainbgcolor: #514c4c;
     --maincolor: #e1251a;
     --iconcolor: #fbe201;
+    --li: #fff;
+  }
+
+
+footer{
+    background-color: var(--mainbgcolor);
+}
+.mainheadings{
+    font-weight: 500;
+    color: var(--li);
+}
+.quicklinks{
+     
+    display: flex;
+    flex-direction: column;
+}
+.quicklinks >ul{
+    padding: 0;
+    list-style-type: none;
+}
+.quicklinks > ul > li {
+    margin: 2px 0 10px 0;
+}
+.quicklinks > ul > li > a{
+    list-style: none;
+     font-size: 16px;
+     text-decoration: none;
+     color: var(--li);
+     transition: 0.5s;
+   }
+.quicklinks > ul > li > a:hover{
+    color: var(--iconcolor);
+}
+.socialicons {
+  
+    display: flex;
+    flex-direction: column;
+}
+.socialicons >ul{
+    padding: 0;
+    list-style-type: none;
+}
+  .socialicons > ul > li{
+   list-style: none;
+   display: inline-block;
+    font-size: 30px;
+    width: 40px;
+    text-decoration: none;
+   
+    
+  }
+  .socialicons >ul >li> a:hover{
+    text-decoration: none;
+  }
+
+  .socialicons >ul >li> a:hover{
+      color: var(--iconcolor); ;
+    opacity: 0.7 !important;
+  }
+  .custombutton{
+      text-transform: uppercase;
+      font-size: 20px !important;
+      color: var(--li) !important;
+      font-weight: 700 !important;
+      background-color: var(--maincolor) !important;
+      padding: 20px !important;
+      width: 220px !important;
+     
+  }
+  .inner-country-name {
+      display: flex !important;
+      align-items:center;
+      
+  }
+  .inner-country-name a{
+    display: flex !important;
+    align-items:center;
+    text-decoration: none;
+    color: var(--li);
+    font-size: 16px;
+    transition: 0.2s;
+    
+}
+.inner-country-name a:hover{
+  
+    text-decoration: none;
+    color: var(--iconcolor)
+    
+}
+  .socialcolors {
+    color: var(--iconcolor);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .socialicons, .custombutton {
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .custombutton {
+        width: 100% !important;
+        
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .inner-country-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .quicklinks {
+        text-align: center;
+    }
   }
