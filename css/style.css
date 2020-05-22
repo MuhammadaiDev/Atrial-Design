@@ -6,8 +6,59 @@
     --li: #fff;
     --black: #000000;
   }
-
-
+  .notificationtop{
+    
+    
+    color: var(--li);
+    background-color: var(--maincolor);
+  }
+  .notificationtop p{
+    
+    padding: 10px 0 0 0;
+  }
+  .navbar-pro {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    border-bottom: 3px solid var(--iconcolor);
+  }
+  .navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #000 !important;
+  }
+  .navbar-pro .navbar-nav li a {
+    line-height: 26px;
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 600 !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+  }
+  .navbar-pro .navbar-nav li a:hover {
+    
+    color: var(--maincolor);
+  
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    
+  }
+/* .navbar-nav .nav-item .nav-link {
+  color: var(--li) !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+} */
+/* footer code starts from here */
 footer{
     background-color: var(--mainbgcolor);
     padding: 80px;
@@ -141,6 +192,10 @@ footer{
 
 }
   
+/* footer code Ends here */
+
+
+/* media queries for footer */
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
       text-align: center;
@@ -192,3 +247,4 @@ footer{
         
     }
   }
+  /* media queries ends here for footer */
