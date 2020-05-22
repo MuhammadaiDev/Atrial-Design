@@ -6,8 +6,83 @@
     --li: #fff;
     --black: #000000;
   }
+  .notificationtop{
+    
+    
+    color: var(--li);
+    background-color: var(--maincolor);
+  }
+  .notificationtop p{
+    
+    padding: 10px 0 0 0;
+  }
+  .navbar-pro {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    border-bottom: 3px solid var(--iconcolor);
+  }
+  .navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #000 !important;
+  }
+  .requestbutton{
+    background-color: var(--maincolor);
+    color: var(--li);
+    font-weight: 700;
+    border-radius: 25px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+.requestbutton:hover {
+  background-color: var(--li);
+  box-shadow: 0px 15px 20px rgba(50, 53, 52, 0.4);
+  color: var(--black);
+  outline: var(--black);
+  
+  transform: translateY(5px);
+}
 
 
+  .navbar-pro .navbar-nav li a {
+    line-height: 26px;
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 600 !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+  }
+  .navbar-pro .navbar-nav li a:hover {
+    
+    color: var(--maincolor);
+  
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    
+  }
+/* .navbar-nav .nav-item .nav-link {
+  color: var(--li) !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+} */
+/* footer code starts from here */
 footer{
     background-color: var(--mainbgcolor);
     padding: 80px;
@@ -140,7 +215,15 @@ footer{
   margin: 0 10px 0 10px;
 
 }
+<<<<<<< HEAD
 
+=======
+  
+/* footer code Ends here */
+
+
+/* media queries for footer */
+>>>>>>> 47b4554dc46510fcff1fc0b6c894b08bd5bee49f
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
       text-align: center;
@@ -192,3 +275,7 @@ footer{
 
     }
   }
+<<<<<<< HEAD
+=======
+  /* media queries ends here for footer */
+>>>>>>> 47b4554dc46510fcff1fc0b6c894b08bd5bee49f
