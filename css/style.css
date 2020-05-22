@@ -1,0 +1,15 @@
+.iconcolor{
+    color: #fbe201;
+}
+.maincolor{
+    color: #e1251a;
+}
+
+.graycolor{
+    color: #514c4c;
+}
+:root {
+    --mainbgcolor: #514c4c;
+    --maincolor: #e1251a;
+    --iconcolor: #fbe201;
+  }
