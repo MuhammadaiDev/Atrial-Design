@@ -115,6 +115,19 @@ footer{
   .socialcolors {
     color: var(--iconcolor);
   }
+.copyright ul {
+  padding: 0;
+  list-style-type: none !important;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 120px;
+
+}
+.copyright ul li {
+  
+  margin: 0 10px 0 10px;
+
+}
   
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
