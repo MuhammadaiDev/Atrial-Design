@@ -21,21 +21,21 @@ footer{
     color: var(--li);
 }
 .quicklinks{
-    
+
     display: flex;
     flex-direction: column;
 }
 .quicklinks >ul{
     padding: 0;
     list-style-type: none;
-   
+
         -moz-column-count: 2;
         -moz-column-gap: 20px;
         -webkit-column-count: 2;
         -webkit-column-gap: 20px;
         column-count: 2;
         column-gap: 20px;
-  
+
 }
 .quicklinks > ul > li {
     margin: 2px 0 10px 0;
@@ -51,7 +51,7 @@ footer{
     color: var(--iconcolor);
 }
 .socialicons {
-  
+
     display: flex;
     flex-direction: column;
 }
@@ -65,8 +65,8 @@ footer{
     font-size: 30px;
     width: 40px;
     text-decoration: none;
-   
-    
+
+
   }
   .socialicons >ul >li> a:hover{
     text-decoration: none;
@@ -84,12 +84,12 @@ footer{
       background-color: var(--maincolor) !important;
       padding: 20px !important;
       width: 220px !important;
-     
+
   }
   .inner-country-name {
       display: flex !important;
       align-items:center;
-      
+
   }
   .inner-country-name a{
     display: flex !important;
@@ -98,13 +98,13 @@ footer{
     color: var(--li);
     font-size: 16px;
     transition: 0.2s;
-    
+
 }
 .inner-country-name a:hover{
-  
+
     text-decoration: none;
     color: var(--iconcolor)
-    
+
 }
 .twodiv{
     line-height: 1pc;
@@ -124,7 +124,7 @@ footer{
     color: var(--li);
     font-weight: 600;
     margin: 0 0 0 20%;
-  
+
   }
 .copyright ul {
   padding: 0;
@@ -140,7 +140,7 @@ footer{
   margin: 0 10px 0 10px;
 
 }
-  
+
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
       text-align: center;
@@ -149,7 +149,7 @@ footer{
   @media only screen and (max-width: 800px) {
     .custombutton {
         width: 100% !important;
-        
+
     }
   }
   @media only screen and (max-width: 800px) {
@@ -179,7 +179,7 @@ footer{
   @media only screen and (max-width: 800px) {
     .copyright {
         text-align: center;
-        
+
     }
   }
   @media only screen and (max-width: 800px) {
@@ -189,6 +189,6 @@ footer{
         flex-direction: column;
         padding: 5px;
         margin: 0 0 0 0;
-        
+
     }
   }
