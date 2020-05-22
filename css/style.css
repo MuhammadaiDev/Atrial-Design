@@ -9,19 +9,32 @@
 
 footer{
     background-color: var(--mainbgcolor);
+    padding: 80px;
+}
+.twodiv a:hover{
+    text-decoration: none;
+    color: var(--iconcolor);
 }
 .mainheadings{
     font-weight: 500;
     color: var(--li);
 }
 .quicklinks{
-     
+    
     display: flex;
     flex-direction: column;
 }
 .quicklinks >ul{
     padding: 0;
     list-style-type: none;
+   
+        -moz-column-count: 2;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 20px;
+        column-count: 2;
+        column-gap: 20px;
+  
 }
 .quicklinks > ul > li {
     margin: 2px 0 10px 0;
@@ -92,30 +105,48 @@ footer{
     color: var(--iconcolor)
     
 }
+.twodiv{
+    line-height: 1pc;
+}
+.bigfont{
+    font-size: 30px;
+    font-weight: 800;
+}
   .socialcolors {
     color: var(--iconcolor);
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
       text-align: center;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .custombutton {
         width: 100% !important;
         
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .inner-country-name {
         display: flex;
         align-items: center;
         justify-content: center;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .quicklinks {
         text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contactus {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
   }
