@@ -4,6 +4,7 @@
     --maincolor: #e1251a;
     --iconcolor: #fbe201;
     --li: #fff;
+    --black: #000000;
   }
 
 
@@ -115,16 +116,27 @@ footer{
   .socialcolors {
     color: var(--iconcolor);
   }
+  .copyright{
+    background-color: var(--black) ;
+    padding: 20px 0 20px 0;
+  }
+  .copyright p {
+    color: var(--li);
+    font-weight: 600;
+    margin: 0 0 0 20%;
+  
+  }
 .copyright ul {
   padding: 0;
   list-style-type: none !important;
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 120px;
+  margin: 0 0 0 30%;
 
 }
 .copyright ul li {
-  
+  color: var(--li);
+  font-weight: 500;
   margin: 0 10px 0 10px;
 
 }
@@ -161,5 +173,22 @@ footer{
         margin-bottom: 20px;
         align-items: center;
         justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .copyright {
+        text-align: center;
+        
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .copyright ul, .copyright p,.copyright ul li {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 5px;
+        margin: 0 0 0 0;
+        
     }
   }
