@@ -228,13 +228,64 @@ footer{
   background: linear-gradient(180deg, #f18080,#ff9913);
 
   
-    
-    
-
-
-  
 }
 
+
+/* media queries for footer */
+
+
+/* media queries for footer */
+.oursixservices{
+ 
+}
+.ourservicespadding{
+  margin-top: 25px;
+}
+.bgfa{
+  font-size: 30px !important;
+  background-color: var(--maincolor);
+  color: var(--li)
+}
+.servicesmallcard1{
+  display: flex;
+  align-items:center;
+  padding: 20px;
+  margin: 0 0 10px 10px;
+  background-color: #fff;
+  color: var(--black);
+  border-color: var(--black);
+  border: 1px solid;
+  border-radius: 25px;
+}
+
+.servicesmallcard1 .innerservice1-1{
+  margin-left: 25px;
+}
+
+.servicesmallcard1:hover{
+  background-color: var(--maincolor);
+  color: var(--li);
+}
+
+/*Accomplished Start*/
+.whatwedoforyou1{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid green;
+  border-radius: 25px;
+}
+.whatwedoforyuhead{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  padding: 20px;
+  
+}
+.whatwedoforyouicon{
+  font-size: 30px !important;
+}
 /* media queries for footer */
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
