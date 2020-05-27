@@ -6,6 +6,10 @@
     --li: #fff;
     --black: #000000;
   }
+
+.activelink{
+  color: var(--maincolor) !important;
+}
   .notificationtop{
     
     
