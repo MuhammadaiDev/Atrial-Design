@@ -337,7 +337,9 @@ footer{
   padding: 30px 0px 30px 0px;
 }
 .hovercard{
+  position: relative;
   transition: transform .2s;
+  z-index: 1;
 }
 .hovercard:hover{
   -ms-transform: scale(1.1); /* IE 9 */
@@ -361,8 +363,16 @@ footer{
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease 0s;
 cursor: pointer;
-
 }
+/* 
+.accomplished-counter-bg {
+  background: url('http://themesquared.com/flathost/wp-content/uploads/2015/03/header-bg.jpg');
+  background-size: cover; 
+} */
+
+
+
+
 /* media queries for footer */
   @media only screen and (max-width: 800px) {
     .socialicons, .custombutton {
