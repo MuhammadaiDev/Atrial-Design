@@ -368,13 +368,51 @@ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease 0s;
 cursor: pointer;
 }
+.rdbutton{
+  margin: 0;
+}
+.contactusform{
+  padding: 20px 0px 20px 0px;
+}
+.contactusbox{
+  text-align: center;
+}
+.contactusbox h2{
+  color: var(--mainbgcolor);
+  font-weight: 300;
+}
+.contactusbox h5{
+  color: var(--mainbgcolor);
+  font-weight: 300 !important;
+}
 /* 
 .accomplished-counter-bg {
   background: url('http://themesquared.com/flathost/wp-content/uploads/2015/03/header-bg.jpg');
   background-size: cover; 
 } */
 
-
+.thankyou{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.thankyou img{
+  width: 200px;
+  height: 100px;
+}
+.thankyou h1{
+  color: var(--mainbgcolor);
+  font-weight: 800;
+}
 
 
 /* media queries for footer */

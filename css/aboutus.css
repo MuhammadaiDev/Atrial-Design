@@ -2,10 +2,13 @@
     padding: 40px;
 }
 .bgimagewrapper{
-  
+  width: 100% ;
 }
 .myimagebg{
     position: relative;
+   
+   
+    
     z-index: 999;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.4);
 }
@@ -13,12 +16,13 @@
     background-color: white;
     border-radius: 10px;
     position: absolute;
-    
-   left: 42px;
+    width: auto;
+   height: 300px;
+   left: 55px;
     bottom: 0px;
-    top: 20px;
+    top: 60px;
     z-index: 1000;
-    border: 1px solid black;
+   
     padding: 20px 30px 20px 30px;
 }
 .aboutuscontainer h1{
